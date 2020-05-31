@@ -1,10 +1,46 @@
 # wanandroid
 ## Vue 全家桶实现的 WanAndroid 客户端
 
+## 技术栈
+
+vue2 + vuex + vue-router + webpack + ES6/7 + less + flex 
+
+## 关于接口数据
+
+此项目的所有接口数据都来源 [玩Android](https://www.wanandroid.com/index)。
+
 ## 项目截图
-[img]
+#### 登陆页面
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/login.gif" width="365" height="619">
+
+#### 首页
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/start.gif" width="365" height="619">
+
+#### 知识体系
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/zhishitixi.gif" width="365" height="619">
+
+#### 导航
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/nav.gif" width="365" height="619">
+
+#### 项目
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/project.gif" width="365" height="619">
+
+#### 搜索
+<img src="https://github.com/HuangDeFa/WanAndroidApp/blob/master/screenshots/search.gif" width="365" height="619">
+
+## 目标功能
+- [x] 首页文章显示 -- 完成
+- [x] 登陆注册 -- 完成
+- [x] 文章收藏(站内) -- 完成
+- [x] 搜索 -- 完成
+- [x] 知识体系模块 -- 完成
+- [x] 导航页面 -- 完成
+- [x] 项目页面 -- 完成
+- [ ] 详情页面 -- 待完成
+- [ ] about页面 -- 待完成
 
 ## 项目结构
+```
 .
 ├── dist                                                //发布文件
 ├── public
@@ -72,4 +108,10 @@
 ├── package-lock.json
 ├── package.json
 ├── postcss.config.js                                   //postcss
-└── vue.config.js                                    
+└── vue.config.js       
+
+22 directories, 84 files
+```
+# License
+
+[MIT](https://github.com/HuangDeFa/WanAndroidApp/blob/master/LICENSE)
